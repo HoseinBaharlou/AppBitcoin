@@ -1,0 +1,117 @@
+<template>
+    <ion-app id="custom-padding">
+        <!-- start header -->
+        <ion-header class="ion-no-border">
+            <ion-toolbar class="header">
+                <forget-message>
+                    <ion-button href="#" fill="clear" class="ion-text-lowercase" color="dark">Forget your credentials?</ion-button>
+                </forget-message>
+            </ion-toolbar>
+        </ion-header>
+        <!-- end header -->
+
+        <!-- start content -->
+        <ion-content>
+            <!-- start row -->
+            <ion-row class="custom-row-background">
+                <!-- start column avatar -->
+                <ion-col size="12" class="center ion-justify-content-center custom-avatar">
+                    <ion-avatar class="custom-image-avatar">
+                        <img src="../../public/assets/iconApp/Thu12mb.svg" alt="sign">
+                    </ion-avatar>
+                </ion-col>
+                <!-- end column avatar -->
+
+                <!-- start column title and subtitle -->
+                <ion-col size="12" class="center custom-col-background custom-col custom-padding">
+                    <p>
+                        <ion-text class="ion-text-center title" color="dark">
+                            <h2>Reset your password</h2>
+                        </ion-text>
+                        <ion-text color="medium" class="ion-text-center">
+                            <h6>At least 8 characters, with uppercase and lowercase letters</h6>
+                        </ion-text>
+                    </p>
+                </ion-col>
+                <!-- end column title and subtitle -->
+
+                <!-- start colum form login -->
+                <ion-col size="12" class="custom-col-background">
+                    <ion-list class="custom-margin-list">
+                        <div class="custom-input-padding">
+                            <ion-label position="stacked" color="medium">New Password</ion-label>
+                            <ion-item class="custom-Input ion-no-border">
+                                <ion-input type="email" name="password" placeholder="* * * * * * * * *" class="ion-no-border" v-model="data.password"></ion-input>
+                                <ion-icon class="ion-align-self-center" name="lock-closed-outline" color="dark" slot="start"></ion-icon>
+                                <ion-icon name="checkmark-circle-outline" color="success" class="ion-align-self-center" slot="end" v-show="data.password"></ion-icon>
+                            </ion-item>
+                        </div>
+
+                        <div class="custom-input-padding">
+                            <ion-label position="floating" color="medium">confirm Password</ion-label>
+                            <ion-item class="custom-Input">
+                                <ion-input type="password" name="password" color="block" v-model="data.RePassword" placeholder="* * * * * * * * *"></ion-input>
+                                <ion-icon name="lock-closed-outline" slot="start" color="dark" class="ion-align-self-center"></ion-icon>
+                            </ion-item>
+                        </div>
+                    </ion-list>
+                </ion-col>
+                <!-- end colum form login -->
+            </ion-row>
+            <!-- end row -->
+        </ion-content>
+
+        <!-- end content -->
+
+        <!-- start footer -->
+        <ion-footer class="ion-no-border">
+            <ion-toolbar>
+                <ion-row class="center ion-padding">
+                    <ion-col size="11">
+                        <ion-button expand="block" color="warning" class="custom-button background-yellow remove-shadow" :disabled="sign_in">SIGN IN</ion-button>
+                    </ion-col>
+                </ion-row>
+            </ion-toolbar>
+        </ion-footer>
+        <!-- end footer -->
+    </ion-app>
+</template>
+
+<script>
+import forgetMessage from './forget_message.vue'
+import {IonToolbar,IonAvatar,IonRow,IonCol,IonText,IonLabel,IonInput,IonItem,IonIcon,IonList,IonFooter,IonHeader,IonContent,IonButton,IonApp} from '@ionic/vue'
+import {mask} from 'vue-the-mask'
+
+export default {
+    name:'LoginPage',
+    data(){
+        return {
+            data:{
+                password:'',
+                RePassword:''
+            },
+        }
+    },
+    computed:{
+        sign_in(){
+            if(this.data.RePassword && this.data.password){
+                return false
+            }
+            return true
+        }
+    },
+    components:{IonToolbar,forgetMessage,IonAvatar,IonRow,IonCol,IonText,IonLabel,IonInput,IonItem,IonIcon,IonList,IonFooter,IonHeader,IonContent,IonButton,IonApp},
+    directives: {mask}
+}
+</script>
+
+<style scoped>
+    .center{
+        display: flex;
+        justify-content: center !important;
+    }
+    .custom-padding{
+        padding-left:35px;
+        padding-right: 35px;
+    }
+</style>
