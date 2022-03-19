@@ -1,8 +1,7 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import { RouteRecordRaw } from 'vue-router';
-import HomePage from '../views/HomePage.vue'
+import HomePage from '../views/HomePage.vue';
 
-const routes: Array<RouteRecordRaw> = [
+const routes = [
   {
     path: '/',
     redirect: '/login'
@@ -15,42 +14,42 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/login',
     name: 'Login',
-    component: ()=>import('../views/LoginPage.vue')
+    component: () => import('../views/LoginPage.vue')
   },
   {
     path: '/otp',
     name: 'OTP',
-    component: ()=>import('../views/OTP.vue')
+    component: () => import('../views/OTP.vue')
   },
   {
     path: '/fingerPoint',
     name: 'FingerPoint',
-    component: ()=>import('../views/FingerPoint.vue')
+    component: () => import('../views/FingerPoint.vue')
   },
   {
     path: '/passwordRecovery',
     name: 'PasswordRecovery',
-    component:()=>import('../views/PasswordRecovery.vue')
+    component: () => import('../views/PasswordRecovery.vue')
   },
   {
     path: '/verify',
     name: 'verify',
-    component:()=>import('../views/verify.vue')
+    component: () => import('../views/verify.vue')
   },
   {
     path: '/resetPassword',
     name: 'resetPassword',
-    component:()=>import('../views/ResetPassword.vue')
+    component: () => import('../views/ResetPassword.vue')
   },
   {
     path: '/createAccount',
     name: 'createAccount',
-    component:()=>import('../views/CreateAccount.vue')
+    component: () => import('../views/CreateAccount.vue')
   },
   {
     path: '/mainDashboard',
     name: 'mainDashboard',
-    component:()=>import('../views/mainDashboard.vue')
+    component: () => import('../views/mainDashboard.vue')
   }
 ]
 
