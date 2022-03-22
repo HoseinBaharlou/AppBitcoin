@@ -59,6 +59,11 @@ const routes = [
   {
     path: '/sendPage',
     component: ()=>import('@/views/sendPage.vue')
+  },
+  {
+    path: '/receivePage',
+    name: 'receivePage',
+    component: ()=>import('@/views/ReceivePage')
   }
 ]
 

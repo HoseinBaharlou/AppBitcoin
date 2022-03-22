@@ -8,6 +8,13 @@
 .h-44{
     height: 44px !important;
 }
+.w-120{
+    width: 120px !important;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
 /*typography*/
 .weight-bold{
     font-weight: 700 !important;

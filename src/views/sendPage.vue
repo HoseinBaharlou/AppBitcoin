@@ -21,7 +21,7 @@
         </ion-col>
       </ion-row>
 <!--      end header-->
-      <ion-row class="bg-light rounded-x-55 h-100 mt-15">
+      <ion-row class="bg-light rounded-x-55 h-100 mt-15 ion-no-padding">
         <ion-col size="12">
           <ion-row>
             <!--        title-->
