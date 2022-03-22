@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import HomePage from '../views/HomePage.vue';
-
+import DashBoard from "@/views/dashBoard";
 const routes = [
   {
     path: '/',
@@ -47,9 +47,18 @@ const routes = [
     component: () => import('../views/CreateAccount.vue')
   },
   {
-    path: '/mainDashboard',
-    name: 'mainDashboard',
-    component: () => import('../views/mainDashboard.vue')
+    path: '/dashboard/',
+    component: DashBoard,
+    children:[
+      {
+        path: 'main',
+        component:()=>import('@/views/mainDashboard.vue')
+      }
+    ]
+  },
+  {
+    path: '/sendPage',
+    component: ()=>import('@/views/sendPage.vue')
   }
 ]
 

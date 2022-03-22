@@ -1,6 +1,17 @@
 *{
     font-family: 'DM Sans', sans-serif !important;
 }
+/*height width*/
+.h-100{
+    height: 100% !important;
+}
+.h-44{
+    height: 44px !important;
+}
+/*typography*/
+.weight-bold{
+    font-weight: 700 !important;
+}
 .header{
     --ion-background-color: #eaefff;
 }
@@ -55,18 +66,6 @@
     --background: url("../assets/image/image_5.png") no-repeat center center / cover !important;
 }
 
-/* color */
-.background-gray{
-    --background:#F4F5F7 !important;
-    --color:#000 !important;
-}
-.background-yellow{
-    --background:#FEC42D !important;
-    --color:#ffffff;
-}
-.yellow{
-    color:#FFC400 !important;
-}
 
 /* remove border button */
 .remove-shadow{
@@ -96,4 +95,37 @@
 /* remove underline a tag */
 .custom-aTag{
     text-decoration: none !important;
+}
+/* custom avatar for list */
+.custom-avatar-list{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+}
+.custom-card-list{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-item-list{
+    font-size: 12px;
+    line-height: 26px;
+}
+.custom-subtitle-item{
+    text-shadow: 0px 2px 5px #FFC400;
+    color: #FEC42D;
+}
+.custom-line{
+    background: #F4F5F7;
+}
+/*custom box*/
+.custom-box{
+    width: 45px;
+    height: 45px;
+    background: #F7931A;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

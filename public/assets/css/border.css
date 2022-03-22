@@ -1,0 +1,8 @@
+.rounded-15{
+    border-radius: 15px !important;
+    --border-radius: 15px !important;
+}
+.rounded-x-55{
+    border-radius: 55px 55px 0px 0px !important;
+    --border-radius: 55px 55px 0px 0px !important;
+}

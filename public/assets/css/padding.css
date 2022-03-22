@@ -1,0 +1,29 @@
+.pt-10{
+    padding-top:10px !important;
+    --padding-top: 10px !important;
+}
+.pt-15{
+    padding-top:15px !important;
+    --padding-top: 15px !important;
+}
+.pr-30{
+    padding-right: 30px !important;
+    --padding-end: 30px !important;
+}
+.pl-30{
+    padding-left: 30px !important;
+    --padding-start: 30px !important;
+}
+.px-35{
+    padding-left: 35px !important;
+    --padding-start: 35px !important;
+    padding-right: 35px !important;
+    --padding-end: 35px !important;
+}
+
+.px-10{
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    --padding-start: 10px !important;
+    --padding-end: 10px !important;
+}

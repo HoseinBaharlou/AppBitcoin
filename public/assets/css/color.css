@@ -1,0 +1,40 @@
+/*bg color */
+.background-gray{
+    --background:#F4F5F7 !important;
+    --color:#000 !important;
+}
+.background-yellow{
+    --background:#FEC42D !important;
+    --color:#ffffff;
+}
+.bg-light{
+    --background: #ffff !important;
+    background: #FFFFFF !important;
+}
+.bg-dark{
+    --background: #000 !important;
+}
+
+
+/*color*/
+.light{
+    --color: #ffff !important;
+    --ion-text-color: #ffff;
+    color: #ffff !important;
+}
+.dark{
+    --color: #000 !important;
+    --ion-text-color: #000 !important;
+    color: #000 !important;
+}
+.yellow{
+    color:#FFC400 !important;
+}
+.bg-purple-1{
+    background: #F4F5F7 !important;
+    --background: #F4F5F7 !important;
+}
+.bg-green-1{
+    background: #ABF5D0;
+    --background: #ABF5D0;
+}
