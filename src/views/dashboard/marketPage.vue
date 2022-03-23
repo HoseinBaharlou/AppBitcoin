@@ -176,8 +176,9 @@
 </ion-row>
 </template>
 <script>
-// import {IonApp} from '@ionic/vue'
+import {IonRow,IonCol,IonList,IonItem,IonText,IonCard,IonCardTitle,IonCardHeader} from '@ionic/vue'
 export default {
+  components:{IonRow,IonCol,IonList,IonItem,IonText,IonCard,IonCardTitle,IonCardHeader}
 }
 </script>
 <style>

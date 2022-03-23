@@ -14,8 +14,10 @@
 .bg-dark{
     --background: #000 !important;
 }
-
-
+.background-transparent{
+    --background: transparent !important;
+    background: transparent !important;
+}
 /*color*/
 .light{
     --color: #ffff !important;
