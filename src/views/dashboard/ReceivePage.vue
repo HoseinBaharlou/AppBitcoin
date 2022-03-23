@@ -6,7 +6,7 @@
         <!--            start title-->
         <ion-col class="ion-no-padding" size="12">
           <div class="custom-box m-auto">
-            <ion-icon src="../assets/icon/bitcoin-(btc).svg" size="large"></ion-icon>
+            <ion-icon src="../../assets/icon/bitcoin-(btc).svg" size="large"></ion-icon>
           </div>
           <div class="ion-text-center mt-15">
             <ion-text class="ion-no-padding dark">
@@ -42,7 +42,7 @@
 <!--          start qrcode-->
         <ion-col size="12" class="mt-55">
           <ion-thumbnail class="qrcode m-auto">
-            <ion-img src="../assets/icon/qrcode_8777312_ 1.svg" />
+            <ion-img src="../../assets/icon/qrcode_8777312_ 1.svg" />
           </ion-thumbnail>
         </ion-col>
 <!--          end qrcode-->

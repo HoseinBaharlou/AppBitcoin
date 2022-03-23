@@ -27,3 +27,13 @@
     --padding-start: 10px !important;
     --padding-end: 10px !important;
 }
+.pt-25{
+    padding-top: 25px !important;
+    --padding-top: 25px !important;
+}
+.py-15{
+    padding-top: 15px !important;
+    --padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    --padding-bottom: 15px !important;
+}

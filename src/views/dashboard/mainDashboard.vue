@@ -28,7 +28,7 @@
                 <ion-card-header>
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/card-receive.svg" size="large"></ion-icon>
+                      <ion-icon src="../../assets/icon/card-receive.svg" size="large"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                   <ion-card-subtitle class="ion-text-center">Deposit</ion-card-subtitle>
@@ -40,7 +40,7 @@
                 <ion-card-header>
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/card.svg" size="large"></ion-icon>
+                      <ion-icon src="../../assets/icon/card.svg" size="large"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                   <ion-card-subtitle class="ion-text-center">Deposit</ion-card-subtitle>
@@ -52,7 +52,7 @@
                 <ion-card-header>
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/card-send.svg" size="large"></ion-icon>
+                      <ion-icon src="../../assets/icon/card-send.svg" size="large"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                   <ion-card-subtitle class="ion-text-center">Deposit</ion-card-subtitle>
@@ -85,7 +85,7 @@
                 <ion-card-header class="ion-no-padding">
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/activity.svg"></ion-icon>
+                      <ion-icon src="../../assets/icon/activity.svg"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                 </ion-card-header>
@@ -100,7 +100,7 @@
                 <ion-card-header class="ion-no-padding">
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/health.svg"></ion-icon>
+                      <ion-icon src="../../assets/icon/health.svg"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                 </ion-card-header>
@@ -115,7 +115,7 @@
                 <ion-card-header class="ion-no-padding">
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/wallet-add.svg"></ion-icon>
+                      <ion-icon src="../../assets/icon/wallet-add.svg"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                 </ion-card-header>
@@ -130,7 +130,7 @@
                 <ion-card-header class="ion-no-padding">
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/maximize-circle.svg"></ion-icon>
+                      <ion-icon src="../../assets/icon/maximize-circle.svg"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                 </ion-card-header>
@@ -145,7 +145,7 @@
                 <ion-card-header class="ion-no-padding">
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/data.svg"></ion-icon>
+                      <ion-icon src="../../assets/icon/data.svg"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                 </ion-card-header>
@@ -160,7 +160,7 @@
                 <ion-card-header class="ion-no-padding">
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/profile-2user.svg"></ion-icon>
+                      <ion-icon src="../../assets/icon/profile-2user.svg"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                 </ion-card-header>
@@ -175,7 +175,7 @@
                 <ion-card-header class="ion-no-padding">
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/notification-bing.svg"></ion-icon>
+                      <ion-icon src="../../assets/icon/notification-bing.svg"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                 </ion-card-header>
@@ -190,7 +190,7 @@
                 <ion-card-header class="ion-no-padding">
                   <ion-card-title class="ion-text-center">
                     <ion-button fill="clear" class="ion-no-padding" href="">
-                      <ion-icon src="../assets/icon/more-2.svg"></ion-icon>
+                      <ion-icon src="../../assets/icon/more-2.svg"></ion-icon>
                     </ion-button>
                   </ion-card-title>
                 </ion-card-header>
@@ -223,7 +223,7 @@
                   <ion-card class="custom-avatar-list custom-card-list" style="background: #248A57;">
                     <ion-card-header class="ion-no-padding">
                       <ion-card-title class="ion-text-center">
-                        <img src="../../public/assets/icon/dollar-circle.svg" alt="">
+                        <img src="../../../public/assets/icon/dollar-circle.svg" alt="">
                       </ion-card-title>
                     </ion-card-header>
                   </ion-card>
@@ -248,7 +248,7 @@
                   <ion-card class="custom-avatar-list custom-card-list" style="background: #248A57;">
                     <ion-card-header class="ion-no-padding">
                       <ion-card-title class="ion-text-center">
-                        <img src="../../public/assets/icon/dollar-circle.svg" alt="">
+                        <img src="../../../public/assets/icon/dollar-circle.svg" alt="">
                       </ion-card-title>
                     </ion-card-header>
                   </ion-card>
@@ -273,7 +273,7 @@
                   <ion-card class="custom-avatar-list custom-card-list" style="background: #5956F4;">
                     <ion-card-header class="ion-no-padding">
                       <ion-card-title class="ion-text-center">
-                        <img src="../../public/assets/icon/Group.svg" alt="">
+                        <img src="../../../public/assets/icon/Group.svg" alt="">
                       </ion-card-title>
                     </ion-card-header>
                   </ion-card>
@@ -339,14 +339,7 @@ export default defineComponent({
 .custom-margin-searchBox{
   margin-top: 51px;
 }
-/*custom search box*/
-.custom-searchBox{
-  text-align: center;
-  --border-radius: 15px;
-  transform: scaleY(1.3);
-  color: #C0C7D1;
-  --background: #fff;
-}
+
 /*change padding main content of ion content*/
 .custom-mainDashboard{
   padding-left: 25px;

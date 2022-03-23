@@ -136,3 +136,10 @@
     align-items: center;
     justify-content: center;
 }
+/*custom search box*/
+.custom-searchBox{
+    --border-radius: 15px;
+    transform: scaleY(1.3);
+    color: #C0C7D1;
+    --background: #fff;
+}

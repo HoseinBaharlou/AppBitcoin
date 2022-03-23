@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import HomePage from '../views/HomePage.vue';
-import DashBoard from "@/views/dashBoard";
+import DashBoard from "@/views/dashboard/dashBoard";
 const routes = [
   {
     path: '/',
@@ -49,21 +49,15 @@ const routes = [
   {
     path: '/dashboard/',
     component: DashBoard,
-    children:[
-      {
-        path: 'main',
-        component:()=>import('@/views/mainDashboard.vue')
-      }
-    ]
   },
   {
     path: '/sendPage',
-    component: ()=>import('@/views/sendPage.vue')
+    component: ()=>import('@/views/dashboard/sendPage.vue')
   },
   {
     path: '/receivePage',
     name: 'receivePage',
-    component: ()=>import('@/views/ReceivePage')
+    component: ()=>import('@/views/dashboard/ReceivePage')
   }
 ]
 

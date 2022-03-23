@@ -6,7 +6,7 @@
       <ion-row class="mt-45">
         <ion-col class="ion-no-padding">
           <div class="custom-box m-auto">
-            <ion-icon src="../assets/icon/bitcoin-(btc).svg" size="large"></ion-icon>
+            <ion-icon src="../../assets/icon/bitcoin-(btc).svg" size="large"></ion-icon>
           </div>
           <div class="ion-text-center mt-15">
             <ion-text class="ion-no-padding dark">
@@ -32,7 +32,7 @@
             </ion-col>
             <ion-col size="6" class="ion-text-end">
               <ion-button fill="clear" size="large" class="bg-light">
-                <ion-icon src="../assets/icon/scanning.svg" size="large"></ion-icon>
+                <ion-icon src="../../assets/icon/scanning.svg" size="large"></ion-icon>
               </ion-button>
             </ion-col>
             <!--        input-->
@@ -52,12 +52,12 @@
               <div class="px-35">
                 <ion-item class="bg-light ion-no-border ion-no-padding dark px-10 h-44 bg-purple-1 rounded-15 " lines="none">
                   <ion-input class="ion-no-border " value="00.0"></ion-input>
-                  <ion-icon src="../assets/icon/MAX.svg" class="ion-align-self-end" slot="end"></ion-icon>
+                  <ion-icon src="../../assets/icon/MAX.svg" class="ion-align-self-end" slot="end"></ion-icon>
                 </ion-item>
 
                 <ion-item class="bg-light ion-no-border ion-no-padding dark px-10 h-44 mt-15 bg-purple-1 rounded-15 " lines="none">
                   <ion-input class="ion-no-border " value="00.0"></ion-input>
-                  <ion-icon src="../assets/icon/USDT.svg" class="ion-align-self-end" slot="end"></ion-icon>
+                  <ion-icon src="../../assets/icon/USDT.svg" class="ion-align-self-end" slot="end"></ion-icon>
                 </ion-item>
               </div>
               <div class="mt-15">
