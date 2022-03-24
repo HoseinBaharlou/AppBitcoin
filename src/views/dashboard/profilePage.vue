@@ -1,5 +1,5 @@
 <template>
-  <ion-row class="bg-purple-1 mb-70 h-100 px-10">
+  <ion-row class="bg-purple-1 mb-70 h-100 px-10 profile">
 <!--    start inactive-->
     <ion-col class="background-light mt-120 rounded-15">
       <ion-list class="ion-no-padding">
@@ -129,9 +129,8 @@
   </ion-row>
 </template>
 <script>
-import {IonRow,IonCol,IonItem,IonList,IonIcon,IonText,IonCard,IonCardTitle,IonCardHeader} from '@ionic/vue'
+import {IonRow,IonCol,IonItem,IonList,IonIcon,IonText,IonCard,IonCardTitle,IonCardHeader,IonBadge} from '@ionic/vue'
 export default {
-  component:{IonRow,IonCol,IonItem,IonList,IonIcon,IonText,IonCard,IonCardTitle,IonCardHeader}
+  component:{IonRow,IonCol,IonItem,IonList,IonIcon,IonText,IonCard,IonCardTitle,IonCardHeader,IonBadge}
 }
 </script>
-

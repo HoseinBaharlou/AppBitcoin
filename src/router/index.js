@@ -49,6 +49,12 @@ const routes = [
   {
     path: '/dashboard/',
     component: DashBoard,
+    children:[
+      {
+        'path':'main',
+        component:()=>import('../views/dashboard/mainDashboard.vue')
+      }
+    ]
   },
   {
     path: '/sendPage',
@@ -58,6 +64,11 @@ const routes = [
     path: '/receivePage',
     name: 'receivePage',
     component: ()=>import('@/views/dashboard/ReceivePage')
+  },
+  {
+    path: '/coinBtc',
+    name: 'coinBtc',
+    component: ()=>import('@/views/coinBtc')
   }
 ]
 
