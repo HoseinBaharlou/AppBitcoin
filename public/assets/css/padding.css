@@ -43,3 +43,13 @@
     --padding-start: 50px !important;
     --padding-end: 50px !important;
 }
+.px-25{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    --padding-start: 25px !important;
+    --padding-end: 25px !important;
+}
+.pl-25{
+    padding-left: 25px;
+    --padding-start: 25px;
+}
