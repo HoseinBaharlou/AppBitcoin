@@ -37,3 +37,9 @@
     padding-bottom: 15px !important;
     --padding-bottom: 15px !important;
 }
+.px-50{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    --padding-start: 50px !important;
+    --padding-end: 50px !important;
+}

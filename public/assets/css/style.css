@@ -25,6 +25,9 @@
 .fSize-12{
     font-size: 12px;
 }
+.fSize-20{
+    font-size: 20px;
+}
 .header{
     --ion-background-color: #eaefff;
 }
@@ -76,13 +79,14 @@
     margin: auto;
 }
 .bachground{
-    --background: url("../assets/image/image_5.png") no-repeat center center / cover !important;
+    --background: url("../../assets/image/image_5.png") no-repeat center center / cover !important;
 }
 
 
 /* remove border button */
 .remove-shadow{
     --box-shadow:none !important;
+    box-shadow: none !important;
 }
 
 /* padding ion list */

@@ -6,3 +6,7 @@
     border-radius: 55px 55px 0px 0px !important;
     --border-radius: 55px 55px 0px 0px !important;
 }
+.round{
+    border-radius: 50% !important;
+    --border-radius: 50% !important;
+}

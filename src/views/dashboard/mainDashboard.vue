@@ -354,7 +354,6 @@ export default defineComponent({
 }
 .custom-card{
   border-radius: 10px !important;
-  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF !important;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
 }
 .subtitle{

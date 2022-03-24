@@ -12,6 +12,11 @@
             <trade-page/>
           </div>
         </b-tab>
+        <b-tab title="Tab 3">
+          <div>
+            <assets-page/>
+          </div>
+        </b-tab>
       </b-tabs>
     </ion-content>
   </ion-page>
@@ -20,9 +25,9 @@
 import {IonPage} from "@ionic/vue";
 import marketPage from './marketPage'
 import tradePage from "@/views/dashboard/tradePage";
-
+import assetsPage from "@/views/dashboard/assetsPage";
 export default {
-  components:{IonPage,marketPage,tradePage}
+  components:{IonPage,marketPage,tradePage,assetsPage}
 }
 </script>
 <style>
