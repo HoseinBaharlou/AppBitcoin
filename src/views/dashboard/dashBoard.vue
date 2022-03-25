@@ -1,67 +1,57 @@
 <template>
-<!--  <ion-page class="dashboard">-->
-<!--    <ion-content class="background-transparent custom-color">-->
-<!--      <b-tabs pills card end class="main-tab" align="center">-->
-<!--        <b-tab title="Tab 1" active>-->
-<!--          <div class="ion-no-padding">-->
-<!--            <market-page/>-->
-<!--          </div>-->
-<!--        </b-tab>-->
-<!--        <b-tab title="Tab 2">-->
-<!--          <div>-->
-<!--            <trade-page/>-->
-<!--          </div>-->
-<!--        </b-tab>-->
-<!--        <b-tab title="Tab 3">-->
-<!--          <div>-->
-<!--            <assets-page/>-->
-<!--          </div>-->
-<!--        </b-tab>-->
-<!--        <b-tab title="Tab 4">-->
-<!--          <div>-->
-<!--            <profile-page/>-->
-<!--          </div>-->
-<!--        </b-tab>-->
-<!--      </b-tabs>-->
-<!--    </ion-content>-->
-<!--  </ion-page>-->
   <ion-page>
     <ion-tabs>
       <ion-router-outlet></ion-router-outlet>
-      <ion-tab-bar slot="bottom" class="background-light">
-        <ion-tab-button href="/dashboard/main" tab="main">
-          <ion-icon src="../../assets/icon/chart-2.svg"></ion-icon>
+      <ion-tab-bar slot="bottom" class="background-light ion-no-border">
+        <ion-tab-button tab="main" href="/dashboard/main" class="m-auto">
+          <ion-icon src="../../assets/icon/chart-2.svg" size="large"/>
         </ion-tab-button>
-        <ion-tab-button href="/dashboard/main" tab="main">
-          <ion-icon src="../../assets/icon/chart-2.svg"></ion-icon>
+
+        <ion-tab-button tab="market" href="/dashboard/market" class="m-auto">
+          <ion-icon src="../../assets/icon/fatrows.svg" size="large"/>
+        </ion-tab-button>
+
+        <ion-tab-button tab="trade" href="/dashboard/trade" class="m-auto">
+          <ion-icon src="../../assets/icon/trade.svg" size="large"/>
+        </ion-tab-button>
+
+        <ion-tab-button tab="assets" href="/dashboard/assets" class="m-auto">
+          <ion-icon src="../../assets/icon/empty-wallet.svg" size="large"/>
+        </ion-tab-button>
+
+        <ion-tab-button tab="profile" href="/dashboard/profile" class="m-auto">
+          <ion-icon src="../../assets/icon/Group_2.svg" size="large"/>
         </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
   </ion-page>
 </template>
 <script>
-import {IonPage,IonTabs,IonTabBar,IonTabButton,IonRouterOutlet} from "@ionic/vue";
+import {IonTabs,IonTabBar,IonTabButton,IonRouterOutlet,IonPage,IonIcon} from "@ionic/vue";
 export default {
-  components:{IonPage,IonTabs,IonTabBar,IonTabButton,IonRouterOutlet}
+  components:{IonTabs,IonTabBar,IonTabButton,IonRouterOutlet,IonPage,IonIcon}
 }
 </script>
-<style>
-/*.card-body{*/
-/*  padding: 0 !important;*/
-/*}*/
-/*.dashboard .nav{*/
-/*  position: fixed;*/
-/*  bottom: 0px;*/
-/*  width: 100%;*/
-/*  padding-left: 0 !important;*/
-/*  padding-bottom: 18px;*/
-/*  padding-top: 18px;*/
-/*}*/
-/*.dashboard .card-header{*/
-/*  background: #FFFFFF;*/
-/*  border-bottom: none;*/
-/*}*/
+<style scoped>
+
 ion-icon{
-  stroke: #000000;
+  stroke: #7A869A;
+}
+.tab-selected ion-icon{
+  stroke: #ffffff;
+}
+ion-tab-button{
+  max-width: 58px;
+  height: 50px;
+  border-radius: 13px;
+}
+ion-tab-bar{
+  border: none;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.tab-selected{
+  --background: yellow !important;
+  background: yellow !important;
 }
 </style>

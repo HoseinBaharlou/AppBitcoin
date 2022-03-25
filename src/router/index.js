@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import HomePage from '../views/HomePage.vue';
-import DashBoard from "@/views/dashboard/dashBoard";
+import DashBoard from '../views/dashboard/dashBoard.vue';
 const routes = [
   {
     path: '/',
@@ -49,10 +49,30 @@ const routes = [
   {
     path: '/dashboard/',
     component: DashBoard,
-    children:[
+    children: [
       {
-        'path':'main',
-        component:()=>import('../views/dashboard/mainDashboard.vue')
+        path: '',
+        redirect: 'main'
+      },
+      {
+        path:'main',
+        component: () => import('../views/dashboard/mainDashboard.vue')
+      },
+      {
+        path:'market',
+        component:() => import('../views/dashboard/marketPage.vue')
+      },
+      {
+        path:'trade',
+        component:() => import('../views/dashboard/tradePage.vue')
+      },
+      {
+        path:'assets',
+        component:() => import('../views/dashboard/assetsPage.vue')
+      },
+      {
+        path:'profile',
+        component:() => import('../views/dashboard/profilePage.vue')
       }
     ]
   },
