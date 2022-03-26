@@ -8,6 +8,9 @@
 .h-44{
     height: 44px !important;
 }
+.h-48{
+    height: 48px !important;
+}
 .w-120{
     width: 120px !important;
 }
@@ -34,6 +37,9 @@
 }
 .fSize-20{
     font-size: 20px;
+}
+.fSize-24{
+    font-size: 24px;
 }
 .header{
     --ion-background-color: #eaefff;

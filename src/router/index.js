@@ -94,6 +94,11 @@ const routes = [
     path: '/investment',
     name: 'investment',
     component: ()=>import('@/views/investmentPage')
+  },
+  {
+    path: '/sharePage',
+    name: 'sharePage',
+    component: ()=>import('@/views/invite/sharePage')
   }
 ]
 
