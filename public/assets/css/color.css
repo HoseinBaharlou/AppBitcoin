@@ -48,3 +48,11 @@
     color: #FF0000 !important;
     --color: #FF0000 !important;
 }
+.purple-1{
+    color: #172B4D;
+    --color:#172B4D;
+}
+.yellow-1{
+    background: #FEC42D;
+    --background: #FEC42D;
+}

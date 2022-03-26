@@ -11,6 +11,10 @@
 .w-120{
     width: 120px !important;
 }
+.wh-80{
+    height: 80px;
+    width: 80px;
+}
 .center{
     display: flex;
     justify-content: center;

@@ -89,6 +89,11 @@ const routes = [
     path: '/coinBtc',
     name: 'coinBtc',
     component: ()=>import('@/views/coinBtc')
+  },
+  {
+    path: '/investment',
+    name: 'investment',
+    component: ()=>import('@/views/investmentPage')
   }
 ]
 
