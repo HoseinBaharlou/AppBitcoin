@@ -9,7 +9,7 @@
       </ion-row>
       <!-- end search box -->
 <!--      start content-->
-      <ion-row class="assets">
+      <ion-row>
         <!-- start title and subtitle -->
         <ion-col size="12" class="title custom-mainDashboard mt-40">
           <ion-text class="dark">
@@ -58,22 +58,11 @@ export default {
 }
 </script>
 
-<style>
-  .assets .icon-color{
+<style scoped>
+  .icon-color{
     stroke: #000000 !important;
   }
-  .assets .nav{
-    position: unset !important;
-    padding-bottom: 0 !important;
-    padding-top: 0 !important;
-  }
-  .assets .nav-link.active{
-    border: none;
-    border-bottom: 1px solid  #FEC42D !important;
-    color:  #FEC42D !important;
-    padding-bottom: 20px !important;
-  }
-  .assets ion-item{
+  ion-item{
     --ion-border-color: #F4F5F7 !important;
   }
 </style>

@@ -99,6 +99,31 @@ const routes = [
     path: '/sharePage',
     name: 'sharePage',
     component: ()=>import('@/views/invite/sharePage')
+  },
+  {
+    path: '/teamPage',
+    name: 'teamPage',
+    component: ()=>import('@/views/invite/TeamPage')
+  },
+  {
+    path: '/NftiToken',
+    name: 'NftiToken',
+    component: ()=>import('@/views/Nfti/NftiToken.vue')
+  },
+  {
+    path: '/investment_1',
+    name: 'investment_1',
+    component: ()=>import('@/views/Nfti/investMent_1')
+  },
+  {
+    path: '/investment_2',
+    name: 'investment_2',
+    component: ()=>import('@/views/Nfti/investMent_2')
+  },
+  {
+    path: '/BuyAccount',
+    name: 'BuyAccount',
+    component: ()=>import('@/views/BuyAccount/investMent')
   }
 ]
 

@@ -9,7 +9,7 @@
         </ion-col>
       </ion-row>
       <!--      end searchbox-->
-      <ion-row class="bg-purple-1 market">
+      <ion-row class="bg-purple-1">
         <ion-col class="ion-no-padding background-light mt-35 rounded-x-55 h-100" size="12">
           <div class="ml-35 mt-25 mb-25">
             <ion-text>
@@ -38,28 +38,8 @@ export default {
   components:{IonPage,IonRow,IonCol,IonContent,favoritesComponents,IonText,IonSearchbar}
 }
 </script>
-<style>
-.market .nav{
-  position: unset !important;
-  padding-bottom: 0 !important;
-  padding-top: 0 !important;
-}
-.market .nav-link.active{
-  border: none;
-  border-bottom: 1px solid  #FEC42D !important;
-  color:  #FEC42D !important;
-  padding-bottom: 20px !important;
-}
-.market ion-item{
+<style scoped>
+ion-item{
   --ion-border-color: #F4F5F7 !important;
-}
-.market .nav-link{
-  color: #000000 !important;
-}
-.market .nav-link.active{
-  border: none;
-  border-bottom: 1px solid  #FEC42D !important;
-  color:  #FEC42D !important;
-  padding-bottom: 20px !important;
 }
 </style>

@@ -41,48 +41,17 @@
 .fSize-24{
     font-size: 24px;
 }
-.header{
-    --ion-background-color: #eaefff;
-}
-.custom-avatar{
-    z-index: 999;
-    height: 4vh;
-}
 .custom-image-avatar{
     background-color: #ffffff !important;
     width: 80px !important;
     height: 80px !important;
 }
-.custom-col{
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-}
-.custom-Input{
-    --ion-background-color: #F4F5F7 !important;
-    --border-radius:15px !important;
-    --show-full-highlight: 0 !important;
-    --border-width:0 !important;
-    margin-top: 10px;
-}
-.custom-padding{
-    padding-top: 46px;
-}
-
-.custom-button{
-    --border-radius:15px !important;
-    --background:#FEC42D !important;
-    height: 44px;
-}
-.custom-input-padding{
-    padding-bottom: 30px;
-    padding-left: 35px;
-    padding-right: 35px;
-}
 .custom-multi-input{
-    background-color: #eaefff;
+    background: #F4F5F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
     width: 65px !important;
     height: 65px !important;
-    border-radius: 15px;
     margin: auto;
 }
 .bachground{
@@ -96,25 +65,12 @@
     box-shadow: none !important;
 }
 
-/* padding ion list */
-
-.custom-margin-list{
-    margin-top: 80px !important;
-}
-
 /* custom input for multi input */
 .custom-input-size{
     font-size: 30px;
     --padding-top:20px !important;
     width: 40px;
     margin: auto !important;
-}
-
-/* custom title */
-.title{
-    font-style: normal;
-    font-weight: 700 !important;
-    line-height: 31px !important;
 }
 /* remove underline a tag */
 .custom-aTag{
@@ -159,4 +115,33 @@
     transform: scaleY(1.3);
     color: #C0C7D1;
     --background: #fff;
+}
+/*custom tabs*/
+.nav{
+    position: unset !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+.nav-link.active{
+    border: none;
+    border-bottom: 1px solid  #FEC42D !important;
+    color:  #FEC42D !important;
+    padding-bottom: 20px !important;
+}
+ion-item{
+    --ion-border-color: #F4F5F7 !important;
+}
+.nav-link{
+    color: #000000 !important;
+    border: none !important;
+}
+.nav-link.active{
+    border: none;
+    border-bottom: 1px solid  #FEC42D !important;
+    color:  #FEC42D !important;
+    padding-bottom: 20px !important;
+}
+ion-input input::placeholder{
+    color: #7D8A9D !important;
+    --color: #7D8A9D !important;
 }

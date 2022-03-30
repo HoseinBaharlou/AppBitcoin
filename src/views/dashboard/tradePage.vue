@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <ion-content class="background-light">
-      <ion-row class="trade bg-purple-1 mb-70 trade">
+      <ion-row class="trade bg-purple-1 mb-70">
         <!--    start title-->
         <ion-col class="mt-90 background-light rounded-x-55 px-35">
           <div class="mt-25 mb-25">
@@ -37,25 +37,11 @@ export default {
   components:{SwapComponent,IonContent,IonRow,IonCol,IonText,swapComponent,IonPage}
 }
 </script>
-<style>
-.trade .nav{
-position: unset !important;
-padding-bottom: 0 !important;
-padding-top: 0 !important;
-}
-.trade .nav-link{
-  color: #000000 !important;
-}
-.trade .nav-link.active{
-border: none;
-border-bottom: 1px solid  #FEC42D !important;
-color:  #FEC42D !important;
-padding-bottom: 20px !important;
-}
-.trade ion-item{
+<style scoped>
+ion-item{
 --ion-border-color: #F4F5F7 !important;
 }
-.trade .custom-link{
+.custom-link{
   display: flex;
   align-items: center;
   text-decoration: none;

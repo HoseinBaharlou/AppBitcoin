@@ -1,5 +1,5 @@
 <template>
-  <ion-page>
+  <ion-page :class="{'page-filter': filter}">
     <ion-content class="bg-purple-1">
       <ion-row class="background-light h-100 px-35 mt-90 rounded-x-55">
         <ion-col>
@@ -53,8 +53,15 @@
 import {IonPage,IonCol,IonRow,IonText,IonIcon,IonInput,IonLabel,IonButton,IonContent,IonItem,alertController} from '@ionic/vue'
 export default {
   components:{IonPage,IonCol,IonRow,IonText,IonIcon,IonInput,IonLabel,IonButton,IonContent,IonItem},
+  data(){
+    return{
+      filter:false,
+    }
+  },
   methods:{
     async resultAlert(){
+      // this.filter = this.filter == true ? false : true
+      this.filter = true
       const alert = await alertController.create({
         cssClass:'custom-alert',
         message: `<div>
@@ -74,16 +81,36 @@ export default {
         buttons:[
           {
             text:'Buy',
-            role:'cancel'
+            handler: () => {
+              this.filter = false
+            },
+          },
+          {
+            role:'cancel',
+            id: 'cancel-alert',
+            handler: () => {
+              this.filter = false
+            },
           }
         ]
-      })
+      });
       return  alert.present()
     }
   }
 }
 </script>
-<style >
+<style scoped>
+#cancel-alert{
+  display: none;
+}
+.ion-page-invisible{
+  opacity: 1;
+}
+.page-filter{
+  filter: blur(5px);
+}
+</style>
+<style>
   .custom-alert .alert-wrapper{
     background: white !important;
     contain: none;
@@ -93,7 +120,7 @@ export default {
   .custom-alert .alert-button-group{
     justify-content: center;
   }
-  .custom-alert .alert-button{
+  .custom-alert .alert-button , .alert-button.ion-focused.sc-ion-alert-md{
     --background: transparent;
     background: transparent;
     --color: #FFC400;

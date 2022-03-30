@@ -1,14 +1,13 @@
 <template>
-	<ion-page id="custom-padding">
+	<ion-page>
 		<!-- start header -->
-		<ion-header class="ion-no-border">
-			<ion-toolbar class="header">
+		<ion-header class="ion-no-border bg-purple-1">
+			<ion-toolbar class="header bg-purple-1">
 				<forget-message>
 					<ion-button
 						href="#"
 						fill="clear"
-						class="ion-text-lowercase"
-						color="dark"
+						class="ion-text-lowercase dark"
 						>Forget your credentials?</ion-button
 					>
 				</forget-message>
@@ -17,69 +16,61 @@
 		<!-- end header -->
 
 		<!-- start content -->
-		<ion-content>
-			<ion-row class="custom-row-background">
-				<!-- start avatar -->
-				<ion-col
-					size="12"
-					class="center ion-justify-content-center custom-avatar"
-				>
-					<ion-avatar class="custom-image-avatar">
-						<img src="../../public/assets/iconApp/Thu12mb.svg" alt="" />
-					</ion-avatar>
-				</ion-col>
-				<!-- end avatar -->
+		<ion-content class="bg-purple-1">
+			<ion-row class="background-light rounded-x-55 h-100 mt-65">
+        <ion-col>
+          <!-- start  avatar -->
+          <section class="center">
+            <ion-avatar class="custom-image-avatar mt-44">
+              <img src="../../public/assets/iconApp/Thu12mb.svg" alt="sign">
+            </ion-avatar>
+          </section>
+          <!-- end  avatar -->
 
-				<!-- start title and subtitle -->
-				<ion-col
-					size="12"
-					class="center custom-col-background custom-col custom-padding"
-				>
-					<p>
-						<ion-text class="ion-text-center">
-							<h2>Fingerpoint</h2>
-						</ion-text>
-						<ion-text color="medium">
-							<h5>Please lift and rest finger</h5>
-						</ion-text>
-					</p>
-				</ion-col>
-				<!-- end title and subtitle -->
+          <!-- start title and subtitle -->
+          <section class="mt-65 ion-text-center">
+            <ion-text>
+              <h2 class="dark weight-bold">Fingerpoint</h2>
+            </ion-text>
+            <ion-text color="medium">
+              <h5>Please lift and rest finger</h5>
+            </ion-text>
+          </section>
+          <!-- end title and subtitle -->
 
-				<!-- start box finger point -->
-				<ion-col size="12" class="center custom-col-background fingerPoint">
-					<ion-thumbnail class="imageSize">
-						<img
-							src="../../public/assets/iconApp/finger_12.svg"
-							class="custom-image"
-						/>
-					</ion-thumbnail>
-				</ion-col>
-				<!-- end box finger point -->
+          <!-- start box finger point -->
+          <section class="center mt-50">
+            <ion-thumbnail class="imageSize center">
+              <img
+                  src="../../public/assets/iconApp/finger_12.svg"
+                  class="custom-image"
+              />
+            </ion-thumbnail>
+          </section>
+          <!-- end box finger point -->
+        </ion-col>
 			</ion-row>
 		</ion-content>
 		<!-- end content -->
 
 		<!-- start footer -->
-		<ion-footer class="ion-no-border">
-			<ion-toolbar>
+		<ion-footer class="ion-no-border background-light">
+			<ion-toolbar class="background-light">
 				<ion-row class="center">
 					<ion-col size="10">
 						<ion-button
 							expand="full"
 							shape="round"
-							class="custom-button background-yellow remove-shadow"
+							class="h-44 rounded-15 background-yellow remove-shadow"
 							>NEXT</ion-button
 						>
 					</ion-col>
-					<ion-col size="10">
+					<ion-col size="10" class="ion-text-center">
 						<ion-text>
-							<p class="ion-text-start">By signing up agree to our</p>
+							<p class="ion-text-center dark">By signing up agree to our</p>
 						</ion-text>
-						<ion-text color="warning">
-							<a href="" class="ion-text-center custom-aTag"
-								>Term and conditions</a
-							>
+						<ion-text>
+							<a href="" class="custom-aTag yellow">Term and conditions</a>
 						</ion-text>
 					</ion-col>
 				</ion-row>
@@ -125,18 +116,8 @@
 </script>
 
 <style scoped>
-	.center {
-		display: flex;
-		justify-content: center;
-	}
-	.fingerPoint {
-		padding-top: 48px;
-	}
 	.imageSize {
 		--size: 102;
-	}
-	.custom-padding {
-		padding-top: 68px !important;
 	}
 	.custom-image {
 		cursor: pointer;

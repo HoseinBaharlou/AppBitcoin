@@ -49,10 +49,14 @@
     --color: #FF0000 !important;
 }
 .purple-1{
-    color: #172B4D;
-    --color:#172B4D;
+    color: #172B4D !important;
+    --color:#172B4D !important;
 }
 .yellow-1{
     background: #FEC42D;
     --background: #FEC42D;
+}
+.bg-gray-1{
+    background: #F4F5F7;
+    --background: #F4F5F7;
 }

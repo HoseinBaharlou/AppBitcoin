@@ -14,13 +14,13 @@
         <ion-content>
             <!-- start row -->
             <ion-row class="custom-row-background">
-                <!-- start avatar -->
-                <ion-col size="12" class="center ion-justify-content-center custom-avatar">
-                    <ion-avatar class="custom-image-avatar">
-                        <img src="../../public/assets/iconApp/iconLock.svg" alt="sign">
-                    </ion-avatar>
-                </ion-col>
-                <!-- end avatar -->
+              <!-- start  avatar -->
+              <section class="center">
+                <ion-avatar class="custom-image-avatar mt-44">
+                  <img src="../../public/assets/iconApp/Thu12mb.svg" alt="sign">
+                </ion-avatar>
+              </section>
+              <!-- end  avatar -->
 
                 <!-- start title and subtitle -->
                 

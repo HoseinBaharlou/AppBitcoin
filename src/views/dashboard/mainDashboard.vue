@@ -109,44 +109,24 @@ export default {
   components:{IonPage,IonRow,IonCol,IonContent,depositComponent,serviceCard,itemRevenue,topGainers}
 }
 </script>
-<style>
+<style scoped>
 /*change padding main content of ion content*/
-.main-dashboard .custom-card{
+.custom-card{
   border-radius: 10px !important;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
 }
-.main-dashboard .subtitle{
+.subtitle{
   font-size: 19px;
   padding-top: 23px !important;
 }
-.main-dashboard .text-color-button{
+.text-color-button{
   --color: #51617A !important;
 }
-.main-dashboard .custom-button-dashboard{
+.custom-button-dashboard{
   margin-top: 10px !important;
   margin-bottom: 5px !important;
 }
-.main-dashboard .nav{
-  position: unset !important;
-  padding-bottom: 0 !important;
-  padding-top: 0 !important;
-}
-.main-dashboard .nav-link.active{
-  border: none;
-  border-bottom: 1px solid  #FEC42D !important;
-  color:  #FEC42D !important;
-  padding-bottom: 20px !important;
-}
-.main-dashboard ion-item{
+ion-item{
   --ion-border-color: #F4F5F7 !important;
-}
-.main-dashboard .nav-link{
-  color: #000000 !important;
-}
-.main-dashboard .nav-link.active{
-  border: none;
-  border-bottom: 1px solid  #FEC42D !important;
-  color:  #FEC42D !important;
-  padding-bottom: 20px !important;
 }
 </style>
