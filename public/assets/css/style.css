@@ -145,3 +145,30 @@ ion-input input::placeholder{
     color: #7D8A9D !important;
     --color: #7D8A9D !important;
 }
+/*custom alert*/
+.custom-alert .alert-wrapper{
+    background: white !important;
+    contain: none;
+    border-radius: 15px;
+    max-width: 295px;
+}
+.custom-alert .alert-button-group{
+    justify-content: center;
+}
+.custom-alert .alert-button , .alert-button.ion-focused.sc-ion-alert-md{
+    --background: transparent;
+    background: transparent;
+    --color: #FFC400;
+    color: #FFC400;
+}
+.custom-alert .result-alert{
+    color: green;
+}
+.custom-alert .alert-message{
+    --margin-top: -74px;
+    margin-top: -74px;
+}
+.custom-alert ion-icon{
+    width: 28px;
+    height: 28px;
+}

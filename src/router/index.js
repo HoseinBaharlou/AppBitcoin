@@ -124,6 +124,11 @@ const routes = [
     path: '/BuyAccount',
     name: 'BuyAccount',
     component: ()=>import('@/views/BuyAccount/investMent')
+  },
+  {
+    path: '/BuyAccount_1',
+    name: 'BuyAccount_1',
+    component: ()=>import('@/views/BuyAccount/investMent_1')
   }
 ]
 
